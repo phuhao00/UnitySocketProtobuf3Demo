@@ -2,7 +2,7 @@ package internal
 
 import (
 	"fmt"
-	"server/mysql"
+	"Server/mysql"
 )
 
 type PlayerBaseInfo struct {

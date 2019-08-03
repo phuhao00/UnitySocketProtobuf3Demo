@@ -1,8 +1,8 @@
 package internal
 
 import (
+	"Server/src/server/mysql"
 	"fmt"
-	"server/mysql"
 )
 
 type Account struct {

@@ -1,15 +1,15 @@
 package main
 
 import (
+	"Server/src/server/conf"
+	"Server/src/server/game"
+	"Server/src/server/gamedata"
+	"Server/src/server/gate"
+	"Server/src/server/login"
+	"Server/src/server/mysql"
+	"fmt"
 	"github.com/name5566/leaf"
 	lconf "github.com/name5566/leaf/conf"
-	"server/conf"
-	"server/game"
-	"server/gate"
-	"server/login"
-	"server/gamedata"
-	"fmt"
-	"server/mysql"
 )
 
 func main() {

@@ -1,13 +1,13 @@
 package internal
 
 import (
-	"github.com/name5566/leaf/gate"
-	"reflect"
-	"server/game"
-	"server/msg"
-  "crypto/md5"
+	"Server/src/server/game"
+	"Server/src/server/msg"
+	"crypto/md5"
 	"encoding/hex"
+	"github.com/name5566/leaf/gate"
 	"github.com/name5566/leaf/log"
+	"reflect"
 )
 
 func handleMsg(m interface{}, h interface{}) {
